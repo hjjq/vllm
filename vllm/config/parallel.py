@@ -130,6 +130,7 @@ class ParallelConfig:
             "deepep_low_latency",
             "allgather_reducescatter",
             "flashinfer_all2allv",
+            "flashinfer_moe_a2a",
         ]
         | None
     ) = None
